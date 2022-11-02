@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats Facts</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Cats Facts</h1>
+        </header>
+        <ul>
+            {% for fact in facts %}
+            <li>{{fact}}</li>
+            {% endfor %}
+        </ul>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+CATS_FACTS_API_URL = "https://catfact.ninja/facts"
