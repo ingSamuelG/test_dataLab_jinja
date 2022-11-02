@@ -12,7 +12,7 @@ activate the enviroment with
 
 ### Linux
 
-`source venv/bin/activate`
+`source virtual-environment-name/bin/activate`
 
 once your environment is activated install the dependencies with
 
